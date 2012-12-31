@@ -39,8 +39,8 @@
                   <span class="icon-bar"></span>
                   </a>
                   
-                  <a class="brand" href="#">iRail</a>
-                  <div class="btn-group pull-right">
+                  <a class="brand" href="#">Stations.io</a>
+<!--                  <div class="btn-group pull-right">
                       <a class="btn dropdown-toggle" data-toggle="dropdown" href="#">
                       <i class="icon-user"></i> Username
                       <span class="caret"></span>
@@ -50,13 +50,13 @@
                           <li class="divider"></li>
                           <li><a href="#">Sign Out</a></li>
                       </ul>
-                  </div>
+     </div>-->
                   
                   <div class="nav-collapse">
                       <ul class="nav">
-                          <li class="active"><a href="#">Home</a></li>
-                          <li><a href="#nothing">This button does nothing!</a></li>
-                          <li><a href="#nolink">Not linked at all.</a></li>
+                          <li><a href="http://stations.io">Home</a></li>
+                          <li><a href="http://stations.io/helpout">Help us to get data!</a></li>
+                          <li><a href="http://stations.io/usecases">Use our data</a></li>
                       </ul>
                   </div>
               </div>

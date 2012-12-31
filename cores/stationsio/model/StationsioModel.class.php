@@ -16,7 +16,6 @@ class StationsioModel{
     public function __destruct(){
        fclose($this->handle);
     }
-    
 
     public function read(){
         $graph = new EasyRdf_Graph();
