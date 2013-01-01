@@ -9,19 +9,15 @@ class URLController extends AController{
 
     public function GET($matches){
         $uci_id = $matches[1];
+        EasyRdf_Namespace::set('transit', 'http://vocab.org/transit/terms/');
+        $sparql = new EasyRdf_Sparql_Client('http://localhost:8080/');
 
-        //Get ini file
-        $documents = parse_ini_file("custom/documents.ini",true);
-        $documents["mapping"]["columns"] = explode(",",$documents["mapping"]["columns"]);
-        $model = new StationsioModel($documents["spreadsheets"]["belgium"],
-                                     $documents["mapping"]);
-        $graph = $model->read();
         if($matches[2] !== "about"){
             parent::setFormat($matches[2]);
         }
-        
-        Log::getInstance()->logInfo("Formatter used: " . parent::getFormat());
+
         echo $graph->serialise(parent::getFormat());
     }
 
 }
+

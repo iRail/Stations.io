@@ -12,7 +12,7 @@
        </tr>
 <?php
    $documents = parse_ini_file("custom/documents.ini",true);
-   $documents = $documents["spreadsheets"];
+   $documents = $documents["sources"];
    $i = 1;
    foreach($documents as $country =>$doc){
        echo "<tr><td>$i</td><td>$country</td><td><a href='$doc' target='_blank'>$doc</a></td></tr>";

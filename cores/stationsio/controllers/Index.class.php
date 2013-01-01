@@ -10,8 +10,6 @@ class Index extends AController{
         }else if($matches[1] == "helpout"){
             include_once("cores/stationsio/helpout.php");
         }
-        
-        
         include_once("custom/template/footer.php");
     }
 

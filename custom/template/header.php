@@ -3,9 +3,9 @@
     <head>
         <meta charset="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <meta name="description" content="" />
-        <meta name="author" content="" />
-        <title>iRail Summer of Code Bootstrap (from Twitter)</title>
+        <meta name="description" content="Stations.io is a linked data project to crowdsource data about railway stations world-wide." />
+        <meta name="author" content="Pieter Colpaert" />
+        <title>Stations.io</title>
         
         <!-- Le fonts -->
         <link href="http://fonts.googleapis.com/css?family=PT+Sans:400,700" rel="stylesheet" type="text/css" />
